@@ -23,6 +23,7 @@ RUN apt-get install -y openjdk-17-jdk
 # Use 'bash' shell instead of 'sh' shell
 SHELL ["/bin/bash", "-c"] 
 
+RUN chmod +x setup.sh
 RUN ./setup.sh
 
 # Define the default command to run when the container starts (optional)
