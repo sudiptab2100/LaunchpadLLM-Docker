@@ -1,5 +1,5 @@
 # Use a base image
-FROM ubuntu:latest
+FROM ubuntu:20.04
 
 # Create a directory inside the container (optional)
 WORKDIR /app
@@ -14,7 +14,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -y
 RUN apt-get install -y wget
 RUN apt-get install -y unzip
-RUN apt-get install -y python3 python3-pip python3.10-venv
+RUN apt-get install -y python3 python3-pip python3.8-venv
 RUN apt-get install -y build-essential
 
 # Install Java 17

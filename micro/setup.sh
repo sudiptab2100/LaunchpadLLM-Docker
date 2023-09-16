@@ -1,7 +1,7 @@
 cd LaunchpadLLM
 cd files
 wget -c https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGUF/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.Q5_K_M.gguf
-wget -c https://ipfs.io/ipfs/QmNLmFcV3yQfshUMG7nRG8rjFR9jHCxnB1LrMG4hvnvXnD -O temp.zip
+wget -c https://cloudflare-ipfs.com/ipfs/QmNLmFcV3yQfshUMG7nRG8rjFR9jHCxnB1LrMG4hvnvXnD -O temp.zip
 unzip temp.zip || exit
 rm -rf temp.zip
 cd ..
